@@ -5,34 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".HomePage">
+    tools:context=".PhotoEditor">
 
     <Button
-        android:id="@+id/btnEditor"
+        android:id="@+id/btnGallery"
         android:layout_width="198dp"
         android:layout_height="63dp"
-        android:text="Editor"
+        android:text="From Gallery"
         app:backgroundTint="#FF5722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.311" />
 
     <Button
-        android:id="@+id/btnPhotoChallenge"
+        android:id="@+id/btnFromCamera"
         android:layout_width="198dp"
         android:layout_height="63dp"
-        android:text="Photo Challenge"
+        android:layout_marginBottom="288dp"
+        android:text="From Camera"
         app:backgroundTint="#13C0D6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEditor"
-        app:layout_constraintVertical_bias="0.069" />
-
-
-
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
