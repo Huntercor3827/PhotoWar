@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         ePassword = findViewById(R.id. etPassword);
         eLogin = findViewById((R.id. btnLogin));
         eAttemptsInfo= findViewById(R.id. tvAttemptsInfo);
-        eCreateAccount = findViewById(R.id.etCreateAccount);
+        eCreateAccount = findViewById(R.id.tvCreateAccount);
 
         eCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
