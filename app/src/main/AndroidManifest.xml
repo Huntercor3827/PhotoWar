@@ -15,10 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LogInPractice">
-        <activity android:name=".FourPlayer"></activity>
+        <activity android:name=".Players"></activity>
+        <activity android:name=".FourPlayer" />
         <activity android:name=".ThreePlayer" />
         <activity android:name=".DoublePlayer" />
-        <activity android:name=".SinglePlayer" />
         <activity android:name=".PCInvite" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".PhotoEditor" />

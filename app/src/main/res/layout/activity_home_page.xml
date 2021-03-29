@@ -45,5 +45,15 @@
         app:layout_constraintVertical_bias="0.035"
         app:srcCompat="@drawable/photowar_login" />
 
+    <TextView
+        android:id="@+id/tvRttoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPhotoChallenge" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

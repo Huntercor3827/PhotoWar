@@ -9,42 +9,49 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="523dp"
-        android:layout_height="282dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="422dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/longpier"
-        tools:layout_editor_absoluteX="-16dp" />
+        app:srcCompat="@drawable/longpier" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="500dp"
-        android:layout_height="412dp"
-        app:srcCompat="@drawable/uploadimage3"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="199dp" />
+        android:layout_width="382dp"
+        android:layout_height="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/uploadimage3" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="500dp"
-        android:layout_height="412dp"
-        app:srcCompat="@drawable/uploadimage3"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="471dp" />
+        android:layout_width="382dp"
+        android:layout_height="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/uploadimage3" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="139dp"
         android:layout_height="45dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="524dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="139dp"
         android:layout_height="45dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="784dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="779dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
